@@ -1,1 +1,19 @@
 = asciidoc-test
+
+This is just a simple test to try to get the rendered html from this asciidoc source to display colored text.
+
+https://asciidoc-py.github.io/asciidoc.css-embedded.html provides multiple examples of text styling.
+Here's the source:
+---- 
+[red]#Obvious# and [big red yellow-background]*very obvious*.
+
+[underline]#Underline text#, [overline]#overline text# and
+[blue line-through]*bold blue and line-through*.
+---- 
+
+Here it is again.  I expect that all the styling should be rendered, but none of the colors show:
+
+[red]#Obvious# and [big red yellow-background]*very obvious*.
+
+[underline]#Underline text#, [overline]#overline text# and
+[blue line-through]*bold blue and line-through*.
